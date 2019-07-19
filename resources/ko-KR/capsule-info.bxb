@@ -3,6 +3,7 @@ capsule-info {
   developer-name (fin10)
   icon-asset (/icon/icon.png)
   description ("그것이 알고 싶다의 회차 정보를 알려드려요")
+  website-url (https://github.com/fin10/fin10.unansweredQuestions)  
   
   search-keywords {
     keyword (그것이 알고 싶다)
