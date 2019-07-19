@@ -1,0 +1,16 @@
+capsule-info {
+  display-name (그것이 알고 싶다)
+  developer-name (fin10)
+  icon-asset (/icon/icon.png)
+  description ("그것이 알고 싶다의 회차 정보를 알려드려요")
+  
+  search-keywords {
+    keyword (그것이 알고 싶다)
+    keyword (그알)
+  }  
+  
+  dispatch-name (그것이 알고 싶다)
+  dispatch-aliases {
+    alias (그알)
+  }
+}

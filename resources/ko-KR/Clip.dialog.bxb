@@ -1,0 +1,29 @@
+template-macro-def (TM_CLIP_RESULT_MESSAGE) {
+  params {
+    param (clip) {
+      type (Clip)
+      min (Required) max (One)
+    }
+  }
+  content {
+    template ("#{value(clip.date.date)}에는 #{value(clip.title)} 편이 방영 됩니다")
+  }
+}
+
+template-macro-def (TM_CLIP_NO_RESULT_MESSAGE) {
+  params {
+    param (date) {
+      type (SearchDate)
+      min (Required) max (One)
+    }
+  }
+  content {
+    template ("#{value(date)}에는 회차 정보가 없습니다")
+  }
+}
+
+template-macro-def (TM_CLIP_LINK) {
+  content {
+    template (예고보기)
+  }
+}

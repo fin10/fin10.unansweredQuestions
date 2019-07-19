@@ -1,0 +1,18 @@
+structure (Clip) {
+  property (title) {
+    type (Title)
+    min (Required) max (One)
+  }
+  property (date) {
+    type (BroadcastDate)
+    min (Required) max (One)
+  }
+  property (thumbnail) {
+    type (Thumbnail)
+    min (Required) max (One)
+  }
+  property (link) {
+    type (ClipLink)
+    min (Required) max (One)
+  }
+}

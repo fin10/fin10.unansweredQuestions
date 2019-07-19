@@ -1,0 +1,5 @@
+train (t-rbo7iq12pppgollu62zyspefz) {
+  utterance ("[g:SearchClip] (이번주)[v:time.DateTimeExpression]에 뭐해")
+  plan (Y2BjkEvLzDM00CvNS8wrLk8tSk0JLE0tLsnMzyvWc87JLGBQwS0fnJpYlJxBnCqXxJJUBl3cqoJSi/NzylJByjzzSlKLyhJzGETLMsv0SjJzU/VQhKVRhEOADNeKgqLU4mKgQQysDIwMTAzMDCxAFgOczQhmMwB5IMwIkgMA)
+  last-modified (1563549776278)
+}

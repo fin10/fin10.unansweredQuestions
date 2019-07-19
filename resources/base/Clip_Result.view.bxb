@@ -1,0 +1,40 @@
+result-view {
+  match: Clip (this)
+
+  message {    
+    template-macro (TM_CLIP_RESULT_MESSAGE) {
+      param (clip) {
+        expression (this)
+      }
+    }
+  }
+  
+  render {
+    layout {
+      section {        
+        content {
+          attribution-link {
+            label: template-macro (TM_CLIP_LINK)
+            url ("#{value(this.link)}")
+          }
+          image {
+            aspect-ratio (4:3)
+            url ("#{value(this.thumbnail)}")
+          }          
+          paragraph {
+            style (Title_S)
+            value {                      
+              template ("#{value(this.title)}")
+            }                
+          }              
+          paragraph {
+            style (Detail_M_Soft)
+            value {                      
+              template ("#{value(this.date)}")
+            }                
+          }              
+        }
+      }
+    }
+  }
+}

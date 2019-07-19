@@ -1,0 +1,23 @@
+action (ResolveDateInterval) {
+  type (Resolver)  
+  collect {
+    input (interval) {
+      type (time.DateInterval)
+      min (Optional) max (One)
+    }
+    input (date) {
+      type (time.Date)     
+      min (Optional) max (One)
+    }
+
+  }
+  output (SearchDate) {
+    evaluate {
+      if (exists(interval)) {
+        $expr(interval.start)        
+      } else-if (exists(date)) {
+        $expr(date)
+      }
+    }
+  }
+}

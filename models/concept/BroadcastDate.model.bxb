@@ -1,0 +1,3 @@
+structure (BroadcastDate) {
+  extends (time.DateTime)
+}

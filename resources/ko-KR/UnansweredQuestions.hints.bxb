@@ -1,0 +1,7 @@
+hints {
+  uncategorized {
+    utterance (이번주에 뭐해?)
+    utterance (저번주엔 뭐 했어?)
+    utterance (이번주에 뭐 하는지 알려줘)
+  }
+}

@@ -1,0 +1,25 @@
+capsule {
+  id (fin10.unansweredQuestions)
+  version (1.0.1)
+  format (3)
+  targets {
+    target (bixby-mobile-ko-KR)
+  }
+  
+  runtime-flags {
+    concepts-inherit-super-type-features
+    modern-prompt-rejection
+    support-halt-effect-in-computed-inputs
+  }
+  
+  capsule-imports {
+    import (viv.time) {
+      as (time)
+      version (2.89.17)
+    }
+  }
+  
+  store-sections {
+    section (MoviesAndTV)
+  }
+}

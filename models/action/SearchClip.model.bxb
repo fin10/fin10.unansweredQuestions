@@ -1,0 +1,12 @@
+action (SearchClip) {
+  type (Search)
+
+  collect {
+    input (date) {
+      type (SearchDate)
+      min (Optional) max (One)      
+    }
+  }
+  
+  output (Clip)
+}

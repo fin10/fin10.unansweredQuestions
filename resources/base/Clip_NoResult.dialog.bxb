@@ -1,0 +1,10 @@
+dialog (NoResult) {
+  match: Clip {
+    from-output: SearchClip (action)
+  }
+  template-macro (TM_CLIP_NO_RESULT_MESSAGE) {
+    param (date) {
+      expression (action.date)
+    }
+  }
+}

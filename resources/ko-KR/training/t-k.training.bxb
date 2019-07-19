@@ -1,0 +1,5 @@
+train (t-klc64wg9vu7rv5tunvccyo42e) {
+  utterance ("[g:SearchClip] (이번주)[v:time.DateTimeExpression] 토요일에는 뭐 하는지 알려줘")
+  plan (Y2BjkEvLzDM00CvNS8wrLk8tSk0JLE0tLsnMzyvWc87JLGBQwS0fnJpYlJxBnCqXxJJUBl3cqoJSi/NzylJByjzzSlKLyhJzGETLMsv0SjJzU/VQhKVRhEOADNeKgqLU4mKgQQysDIwMTAzMDCxAFgOczQhmMwB5IMwIkgMA)
+  last-modified (1563549904711)
+}
